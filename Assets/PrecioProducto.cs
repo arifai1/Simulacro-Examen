@@ -11,10 +11,11 @@ public class PrecioProducto : MonoBehaviour
     public int Precio2;
     public int Precio3;
     public int MontoDisponible;
-    int sum;
-    int sobrante;
+    
     void Start()
     {
+        int sum;
+        int sobrante;
         sum = Precio + Precio2 + Precio3;
         if (sum > MontoDisponible)
         {
